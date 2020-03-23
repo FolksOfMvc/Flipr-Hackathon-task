@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.vl {
+  border-left: 6px solid black;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 100;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: black;
+  color:  blue;
+}
+.next {
+  background-color:white;
+  color: black;
+  position:absolute;
+ 
+}
+
+</style>
+
+</head>
+<body>
+	<div>
+		<center><h1><b>Make My Trip</b></h1>
+      <br><h2>Face of India's online travel sector.</h2></center>
+	</div>
+	<!-- <div>
+		<h2><b>100</b><br>Companies Funded</h2>
+	</div>-->
+	<div class="vl">
+			</div>
+	<div class="row">
+  <div class="column">
+    <center><h2><b>34.1M</b><br>Transactions in FY'16</h2></center>
+  
+  </div>
+  <div class="column">
+    <center><h2><b>48%</b><br>Market share in OTA</h2></center>
+ 
+  </div>
+</div>
+<div>
+	<h3>"It was skeptical listing on Nasdaq but Ravi was emphatic about it and convinced me. The rest, as they say, is history."<br><b><h6>Deepkatra-Founder and Group CEO.</h6></b></h3>
+</div>
+<a href="#" class="next">Next &raquo;</a>
+
+</body>
+</html>

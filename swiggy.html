@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.vl {
+  border-left: 6px solid black;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 100;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: black;
+  color:  blue;
+}
+.next {
+  background-color:white;
+  color: black;
+  position:absolute;
+ 
+}
+
+</style>
+
+</head>
+<body>
+	<div>
+		<center><h1><b>Swiggy</b></h1>
+      <br><h2>Changing The Way India Eats.</h2></center>
+	</div>
+	<!-- <div>
+		<h2><b>100</b><br>Companies Funded</h2>
+	</div>-->
+	<div class="vl">
+			</div>
+	<div class="row">
+  <div class="column">
+    <center><h2><b>2.7M</b><br>Delivery|Month</h2></center>
+  
+  </div>
+  <div class="column">
+    <center><h2><b>12000</b><br>Restaurants</h2></center>
+ 
+  </div>
+</div>
+<div>
+	<h3>"Working with SAIF has been a true delight, their conviction and relentless support has been a gamechanger."<br><b><h6>Sriharsha Sharma-Founder.</h6></b></h3>
+</div>
+<a href="#" class="next">Next &raquo;</a>
+
+</body>
+</html>
